@@ -1,0 +1,225 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin:0 auto;
+}
+
+main ul.list{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+li.itemList{
+  width: 250px;
+  cursor:grab;
+
+  height: 350px;
+  border-radius: 10px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  
+  margin: 10px 0;
+  color:#10264E;
+  background: #fff;
+  box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
+div.divSvg{
+  border-radius: 10px 10px 0 0 ;  
+  background-image:url('../assets/guinhco.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:200px;
+}
+
+div.infoService{
+  margin:10px;
+}
+div.infoService > h3{
+  font-size: 20px;
+  margin:5px 0 ;
+
+}
+.infoService >p{
+  font-size: 12px;
+  margin:5px 0 ;
+
+}
+.infoService >span{
+  margin:5px 0;
+  font-size:20px;
+  font-weight: bold;
+}
+ul li button{
+  border-radius: 5px;
+  background:#00D540;
+  border: 0;
+  color:white;
+  font-size:14px; 
+  padding:15px 10px;
+  font-weight: bold;
+  transition: background;
+}
+ul li button:hover{
+  background:rgb(0, 177, 53);
+}
+h1{
+  margin:50px;
+  color:#C4C4C4;
+}
+
+div.comparator{
+  box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+
+  width:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding:15px;
+  justify-content: center;
+  background: #fff;
+}
+
+div.comparatorDrag{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+}
+
+div.serviceA{
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  
+  margin: 10px 0;
+  color:#10264E;
+  background: #fff;
+  box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+div.alinhamento{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div.serviceB{
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  
+  margin: 10px 0;
+  color:#10264E;
+  background: #fff;
+  box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+div.comparatorDrag strong{
+  font-size: 25px;
+  color:#10264E;
+
+}
+
+div.comparatorDrag >span{
+  font-size: 25px;
+  font-weight: bold;
+  color: #10264E;
+}
+
+div.result{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top:30px;
+}
+
+div.result span{
+  color: #10264E;
+  margin-bottom: 10px;
+}
+
+div.result strong{
+  color: #009CD6;
+  font-size:35px;
+  margin-bottom: 10px;
+
+}
+
+div.result button{
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background:#00D540;
+  border: 0;
+  color:white;
+  font-size:14px; 
+  padding:15px 10px;
+  font-weight: bold;
+  transition: background;
+}
+div.result button:hover{
+  background:rgb(0, 177, 53);
+}
+
+.dragAndDrop{
+  box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+
+  width:100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding:15px;
+  justify-content: center;
+  background: #fff;
+}
+
+ul.listDrag{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.selecionado{
+  transform: scale(1.03);
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
+}
+
+.drag{
+  opacity: 0;
+}
+
+div.resultComparator{
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.1);
+
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: #10264E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  background:#00D540;
+}
