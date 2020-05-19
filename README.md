@@ -1,14 +1,18 @@
-# Desafio Porto Alegre
+<h1 align="center">
+  <img src="https://ik.imagekit.io/kxc61ueka1/LOGO__CJuDE99j.png">
+</h1>
 
-( X  )Construa um layout
+Este desafio foi  bem bacana. Construímos um comparador de semestralidade. Com Drag and Drop. Além do layot, também desenvolvi um logo para o desafio.
 
-( X ) Comparar e contratar produtos de valor mensal.
-
-( X )Use elementos como checkbox para selecionar os produtos 
-
-( X ) e funções de arrastar e soltar produtos ao carrinho de compras.
+DragAndDrop
+![dragandDrop](https://ik.imagekit.io/kxc61ueka1/AGORA_VAI_pYeLT51VD.gif)
 
 
-# Produto desenvolvido.
-Comparador de serviçoes mensais de guinchos para carros.
 
+![tela01](https://ik.imagekit.io/kxc61ueka1/TELA01_Up-SrBYZX3.png)
+
+
+![tela02](https://ik.imagekit.io/kxc61ueka1/TELA02_DHMfty0AJ.png)
+
+Usei uma biblioteca chamada Sortable para fazer o drag and drop.
+Muito simples e fácil de utilizar.
